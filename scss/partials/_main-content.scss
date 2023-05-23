@@ -17,5 +17,12 @@
     border-bottom: 1px solid black;
     padding: 5px;
     text-align: center;
+    font-family: $main-font;
+    font-weight: 700;
+  }
+
+  &__button {
+    width: 30px;
+    height: 30px;
   }
 }
