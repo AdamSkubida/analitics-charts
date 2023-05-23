@@ -13,12 +13,51 @@
       href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <div class="header__logo">Analitics</div>
+      <div class="header__logo">
+        <a
+          class="header__link"
+          href="https://adamskubida.github.io/analitics-charts/"
+          >Analitics</a
+        >
+      </div>
     </header>
-    <main></main>
+    <main class="main">
+      <div class="main__header">
+        <div>
+          <form class="aspect-form from">
+            <input
+              class="aspect-form__input form__input"
+              type="text"
+              placeholder="aspect"
+            />
+            <button type="submit" class="aspect-form__button form__button">
+              +
+            </button>
+          </form>
+        </div>
+        <div>
+          <form class="department-form form">
+            <input
+              class="department-form__input form__input"
+              type="text"
+              placeholder="department"
+            />
+            <button type="submit" class="department-form__button form__button">
+              +
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
