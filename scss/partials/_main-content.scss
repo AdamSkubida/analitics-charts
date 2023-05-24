@@ -18,22 +18,34 @@
     padding: 5px;
     text-align: center;
     font-family: $main-font;
+    font-size: 15px;
     font-weight: 700;
+    transform: scale(1);
+    transition: 200ms;
 
     &:hover,
     &:focus {
+      transform: scale(1.1);
+      transition: 200ms;
+      outline: none;
     }
   }
 
   &__button {
     width: 30px;
     height: 30px;
+    border-width: 0;
+    background-color: white;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     transform: rotate(0deg);
     transition: 250ms;
 
     &:hover,
     &:focus {
-      transform: rotate(10deg);
+      transform: rotate(15deg);
       transition: 250ms;
       cursor: pointer;
     }
