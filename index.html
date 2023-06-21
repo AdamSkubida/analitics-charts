@@ -31,21 +31,35 @@
       </div>
     </header>
     <main class="main">
+      <div class="create-object-box">
+        <button
+          type="button"
+          id="create-object-button"
+          class="create-object-button"
+        >
+          Create object
+        </button>
+      </div>
       <div class="main__header">
         <div>
-          <form class="aspect-form from">
+          <form id="aspect-form" class="from aspect-form is-hidden">
             <input
+              id="aspect-input"
               class="aspect-form__input form__input"
               type="text"
               placeholder="aspect"
             />
-            <button type="submit" class="aspect-form__button form__button">
+            <button
+              type="button"
+              id="aspect-button"
+              class="aspect-form__button form__button"
+            >
               +
             </button>
           </form>
         </div>
         <div>
-          <form class="department-form form">
+          <form id="department-form" class="form department-form is-hidden">
             <input
               class="department-form__input form__input"
               type="text"
@@ -59,6 +73,6 @@
       </div>
     </main>
     <!-- <footer class="footer"><div class="footer__info">made by Adam Skubida</div></footer> -->
-    <script src="./js/index.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
