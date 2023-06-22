@@ -1,0 +1,17 @@
+.aspect {
+  &__form {
+    margin-bottom: 40px;
+  }
+}
+
+.next-box {
+  &__button {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: #c0e0c4;
+    padding: 25px 30px;
+    cursor: pointer;
+  }
+}

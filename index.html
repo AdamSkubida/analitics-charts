@@ -40,36 +40,39 @@
           Create object
         </button>
       </div>
-      <div class="main__header">
-        <div>
-          <form id="aspect-form" class="from aspect-form is-hidden">
-            <input
-              id="aspect-input"
-              class="aspect-form__input form__input"
-              type="text"
-              placeholder="aspect"
-            />
-            <button
-              type="button"
-              id="aspect-button"
-              class="aspect-form__button form__button"
-            >
-              +
-            </button>
-          </form>
+      <div id="aspect" class="aspect form-box is-hidden">
+        <form id="aspect-form" class="form aspect__form">
+          <input
+            id="aspect-input"
+            class="aspect__input form__input"
+            type="text"
+            placeholder="aspect"
+          />
+          <button
+            type="button"
+            id="aspect-button"
+            class="aspect__button form__button"
+          >
+            +
+          </button>
+        </form>
+        <div class="next-box">
+          <button id="next-button" class="next-box__button" type="button">
+            NEXT
+          </button>
         </div>
-        <div>
-          <form id="department-form" class="form department-form is-hidden">
-            <input
-              class="department-form__input form__input"
-              type="text"
-              placeholder="department"
-            />
-            <button type="submit" class="department-form__button form__button">
-              +
-            </button>
-          </form>
-        </div>
+      </div>
+      <div id="department" class="department form-box is-hidden">
+        <form id="department__form" class="form department-form">
+          <input
+            class="department__input form__input"
+            type="text"
+            placeholder="department"
+          />
+          <button type="submit" class="department__button form__button">
+            +
+          </button>
+        </form>
       </div>
     </main>
     <!-- <footer class="footer"><div class="footer__info">made by Adam Skubida</div></footer> -->
